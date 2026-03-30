@@ -41,6 +41,10 @@ body {
     flex-direction: row;
 }
 
+.btnDarkToggle {color: var(--bs-secondary); transition: all 0.3s ease;}
+.btnDarkToggle:hover{color: var(--bs-body-color);}
+
+
 .nav-links {
     display: flex;
     list-style: none;

@@ -5,11 +5,9 @@ const themeToggleBtns = document.querySelectorAll('.btnDarkToggle');
 function updateButtonUI(theme) {
     themeToggleBtns.forEach(btn => {
         if (theme === 'dark') {
-            btn.innerText = 'Dark';
-            btn.classList.replace('btn-dark', 'btn-light');
+            btn.classList.replace('bi-brightness-high-fill', 'bi-moon-fill');
         } else {
-            btn.innerText = 'Light';
-            btn.classList.replace('btn-light', 'btn-dark');
+            btn.classList.replace('bi-moon-fill', 'bi-brightness-high-fill');
         }
     });
 }
