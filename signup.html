@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logotemuin-putih.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        /* CSS Kustom untuk Background Gradasi seperti di gambar */
+        .bg-custom-gradient {
+            background: linear-gradient(180deg, #101820 0%, #C4E6C4 100%);
+            /* Pastikan minimal setinggi layar */
+            min-height: 100vh;
+        }
+
+        /* Sedikit penyesuaian ukuran font untuk teks syarat & ketentuan */
+        .text-micro {
+            font-size: 0.7rem;
+        }
+
+        .loginBtn {
+            background-color: #00a453;
+            border-color: #00a453;
+
+            :hover {
+                background-color: #0c5c34;
+                border-color: #0c5c34;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-custom-gradient d-flex justify-content-center align-items-center">
+
+    <div class="card border-0 shadow-lg rounded-4 p-4 p-md-5" style="width: 100%; max-width: 450px;">
+
+        <div class="card-body text-center p-0">
+            <h2 class="fw-bold mb-4">Selamat datang</h2>
+
+            <form>
+                <div class="mb-3 text-start">
+                    <label for="emailInput" class="form-label fw-semibold small mb-1">Email</label>
+                    <input type="email" class="form-control rounded-3 py-2" id="emailInput" placeholder="Email">
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label for="passwordInput" class="form-label fw-semibold small mb-1">Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control rounded-start-3 py-2" id="passwordInput"
+                            placeholder="Password">
+                        <button class="btn btn-outline-secondary border text-dark rounded-end-3" type="button"
+                            id="togglePassword">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label for="datebirth" class="form-label fw-semibold small mb-1">Tanggal Lahir</label>
+                    <input type="date" class="form-control rounded-3 py-2" id="datebirth">
+                </div>
+
+                <button type="submit" class="btn btn-success w-100 fw-bold py-2 mb-2 mt-3 rounded-pill" id="loginBtn">
+                    Sign Up
+                </button>
+
+                <p class="small fw-bold text-muted mb-2">OR</p>
+
+                <button type="button"
+                    class="btn btn-light border w-100 fw-bold py-2 mb-4 rounded-pill d-flex align-items-center justify-content-center">
+                    <i class="bi bi-envelope-fill fs-5 me-2 "></i> Gunakan Email
+                </button>
+
+                <p class="text-muted text-micro mb-4">
+                    By continuing, you agree to TemuIn's <a href="#"
+                        class="text-dark text-decoration-none text-decoration-underline-hover">Terms of Service</a> and
+                    acknowledge you've read our <a href="#" class="text-dark text-decoration-none">Privacy Policy</a>.
+                    <a href="#" class="text-dark text-decoration-none">Notice at collection</a>.
+                </p>
+
+                <div class="mt-2">
+                    <p class="small fw-bold mb-1">Already have an Account? <a href="login.html" class="text-dark">Log
+                            in</a></p>
+                    <p class="small fw-bold mb-0">Are you a business? <a href="#" class="text-dark">Get started
+                            here!</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="hidePassword.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

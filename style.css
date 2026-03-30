@@ -27,16 +27,18 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1e293b;
     cursor: pointer;
-    height: 100%;
-    width: 150px;
+    height: 2rem;
+    width: 100px;
+    background-image: url('images/logotemuin-putih.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.logo span {
-    color: #3b82f6; /* Warna aksen biru */
+#login-button {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
 }
 
 .nav-links {
