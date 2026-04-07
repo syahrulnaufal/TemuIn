@@ -27,6 +27,7 @@ body {
 }
 
 .logo {
+<<<<<<< HEAD
     cursor: pointer;
     height: 2rem;
     width: 100px;
@@ -45,6 +46,20 @@ body {
 .btnDarkToggle:hover{color: var(--bs-body-color);}
 
 
+=======
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    cursor: pointer;
+    height: 100%;
+    width: 150px;
+}
+
+.logo span {
+    color: #3b82f6; /* Warna aksen biru */
+}
+
+>>>>>>> 5862293cd08759fd05d5b4af2186a95513c7016b
 .nav-links {
     display: flex;
     list-style: none;
