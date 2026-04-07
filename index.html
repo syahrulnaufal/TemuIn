@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TemuIn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logotemuin-putih.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+</head>
+
+<body>
+
+    <!-- <nav class="navbar">
+        <div class="logo"><img src="images/logotemuin.png" alt="" ></div>
+        <ul class="nav-links">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Daftar Barang</a></li>
+            <li><a href="#">Panduan Lapor</a></li>
+        </ul>
+        <a href="#" class="btn-login">Login</a>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><div class="logo p-1 ms-2"></div></a>
+            <div class="d-flex gap-4 align-items-center">
+                <div class="d-lg-none d-block">
+                    <i class="bi bi-brightness-high-fill fs-5 btnDarkToggle " style="cursor: pointer;"></i>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse container-fluid justify-content-between " id="navbarNavDropdown">
+                <div class="px-2"></div>
+
+                <ul class="navbar-nav align-items-start align-items-lg-center d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Barang Temuan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Barang Hilang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block ms-3">
+                        <i class="bi bi-brightness-high-fill fs-5 btnDarkToggle " style="cursor: pointer;"></i>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav d-flex mt-3 mt-lg-0" id="login-button">
+                    <li class="nav-item">
+                        <a href="login.html"><button class="btn btn-outline-success px-3 py-1 fw-semibold">Login</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signup.html"><button class="btn btn-success px-3 py-1 fw-semibold">Daftar</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Sistem Informasi Barang Hilang & Temuan Kampus</h1>
+            <p>Platform terpadu untuk melaporkan barang yang kamu temukan atau mencari barangmu yang hilang. Mari
+                ciptakan lingkungan kampus yang saling peduli dan membantu!</p>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">🔍 Cari Barang Hilang</a>
+                <a href="#" class="btn btn-secondary">📢 Lapor Barang Temuan</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
