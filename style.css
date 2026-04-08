@@ -27,7 +27,6 @@ body {
 }
 
 .logo {
-<<<<<<< HEAD
     cursor: pointer;
     height: 2rem;
     width: 100px;
@@ -46,20 +45,6 @@ body {
 .btnDarkToggle:hover{color: var(--bs-body-color);}
 
 
-=======
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1e293b;
-    cursor: pointer;
-    height: 100%;
-    width: 150px;
-}
-
-.logo span {
-    color: #3b82f6; /* Warna aksen biru */
-}
-
->>>>>>> 5862293cd08759fd05d5b4af2186a95513c7016b
 .nav-links {
     display: flex;
     list-style: none;
@@ -136,11 +121,12 @@ body {
     padding: 1rem 2rem;
     border-radius: 12px;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 15px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    justify-content: center;
 }
 
 .btn-primary {
@@ -183,4 +169,273 @@ body {
     .btn {
         justify-content: center;
     }
+}
+
+/* --- Global Variables & Body --- */
+:root {
+    --primary-green: #00B85C;
+    --dark-navy: #111827;
+    --dark-nav-bg: #1F2937;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* Background gradasi lembut seperti di gambar */
+    background: linear-gradient(180deg, #F9FDFB 0%, #E2EFE6 100%);
+    min-height: 100vh;
+}
+
+/* --- Navbar Custom Styling --- */
+.navbar-custom {
+    background-color: var(--dark-navy);
+    padding: 0px 0;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+}
+
+/* Menu Pill di tengah navbar */
+.nav-pill-container {
+    background-color: var(--dark-nav-bg);
+    border-radius: 50px;
+    padding: 4px 8px;
+}
+
+.nav-pill-link {
+    color: #9CA3AF;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-pill-link:hover {
+    color: white;
+}
+
+.nav-pill-link.active {
+    background-color: var(--primary-green);
+    color: white;
+    font-weight: 600;
+}
+
+/* Dropdown UIN WS & Login btn */
+.btn-dark-outline {
+    background-color: var(--dark-nav-bg);
+    color: white;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* --- Hero Section Styling --- */
+.hero-logo {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 100px;
+    margin-bottom: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.search-bar {
+    max-width: 700px;
+    background: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* --- Cards Styling --- */
+.action-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 16px;
+    transition: transform 0.2s;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05) !important;
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.icon-box-pink { background-color: #F8D7DA; }
+.icon-box-yellow { background-color: #FDF3D0; }
+
+.btn-custom-green {
+    background-color: var(--primary-green);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.btn-custom-green:hover {
+    background-color: #00994d;
+    color: white;
+}
+
+.logo-nav {
+    background-image: url(/images/logotemuin-putih.png);
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.logo-big {
+    background-image: url(images/logotemuin-hitam.png);
+    width: 300px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.section1 {
+    height: 100dvh;
+    box-sizing: border-box;
+    overflow: hidden;
+    scroll-snap-align: center;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.search-input::placeholder {
+    color: #9CA3AF !important; /* Warna abu-abu kalem */
+    opacity: 1; /* Memastikan ketebalan warna merata di semua browser */
+}
+
+.scroll-snap-wrapper {
+    /* white-space: nowrap; */
+    scroll-snap-type: y mandatory;
+}
+
+.section2 {
+    scroll-snap-align: center;
+}
+
+
+
+/* === SECTION 2: Barang Hilang === */
+.section-grey-bg {
+    background-color: #F4F6F8;
+}
+
+.section-header-box {
+    max-width: 850px;
+}
+
+.section-title-main {
+    font-size: 2.2rem;
+    color: #111827;
+}
+
+.text-dark-green {
+    color: #1A3626;
+}
+
+.section-desc-main {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.section-heading {
+    color: #111827;
+}
+
+/* --- Styling Item Cards --- */
+.item-card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.item-card-img {
+    height: 140px;
+}
+
+.custom-badge {
+    font-size: 10px;
+}
+
+.item-title {
+    font-size: 13px;
+}
+
+.item-desc {
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.item-info {
+    font-size: 10px;
+}
+
+.icon-green {
+    color: var(--primary-green);
+}
+
+.avatar-mini {
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-green);
+}
+
+.item-price {
+    font-size: 14px;
+    color: #374151;
+}
+
+/* --- Styling Card Next --- */
+.card-next {
+    border-radius: 12px;
+    background-color: #FAFAFA;
+}
+
+.text-next-label {
+    font-size: 11px;
+}
+
+.btn-next-custom {
+    background-color: var(--primary-green);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn-next-custom:hover {
+    background-color: #00994d;
+    color: white;
 }
