@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "status": "Hilang",
+        "title": "Kunci Motor",
+        "description": "Kunci motor hilang, terakhir kali terlihat di sekitar Tembokojo, mohon bantuannya untuk menemukan kunci motor saya.",
+        "location": "Kantin FDK",
+        "date": "25 Maret 2023",
+        "user": "Muhammad Arbani",
+        "userInitials": "M",
+        "category": "Barang",
+        "price": "Gratis",
+        "imageUrl": "/images/fotoBarang/kunci-motor.png"
+    },
+    {
+        "id": 2,
+        "status": "Hilang",
+        "title": "Papan Tulis Ruang 4.4 iSDB",
+        "description": "Plis guys papan tulis kok ada yang ngambil ya? Padahal itu buat belajar kita semua, jangan sampai hilang ya!",
+        "location": "iSDB",
+        "date": "25 Maret 2023",
+        "user": "Atmin Kelas",
+        "userInitials": "A",
+        "category": "Barang",
+        "price": "500k",
+        "imageUrl": "/images/fotoBarang/isdb.png"
+    },
+    {
+        "id": 3,
+        "status": "Ditemukan",
+        "title": "Dompet Coklat",
+        "description": "Menemukan dompet di stasiun kereta, bagi yang merasa kehilangan...",
+        "location": "Stasiun Tugu",
+        "date": "26 Maret 2023",
+        "user": "Budi Santoso",
+        "userInitials": "B",
+        "category": "Aksesoris",
+        "price": "Gratis",
+        "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 4,
+        "status": "Hilang",
+        "title": "Shai Hulud",
+        "description": "Shai hulud hilang, dicariin Paul Atreides, siapa yang menemukan akan mendapatkan spice melimpah ruah",
+        "location": "Arrakis",
+        "date": "26 Maret 2023",
+        "user": "Paul Atreides",
+        "userInitials": "P",
+        "category": "Cacing Pasir",
+        "price": "1.000.000.000.000.000",
+        "imageUrl": "/images/fotoBarang/shai-hulud.png"
+    },
+    {
+        "id": 5,
+        "status": "Hilang",
+        "title": "Kunci Selat Hormuz",
+        "description": "Kunci selat Hormuz hilang, Trump udah marah-marah selatnya belum dibuka-buka.",
+        "location": "Iran",
+        "date": "26 Maret 2023",
+        "user": "Khamenei",
+        "userInitials": "K",
+        "category": "Aksesoris",
+        "price": "Gratis",
+        "imageUrl": "/images/fotoBarang/selat-hormuz.png"
+    },
+    {
+        "id": 6,
+        "status": "Ditemukan",
+        "title": "IPHONE 17 Pro Max, 1TB, Tunai, IBOX, no cicil, beli di Malaysia",
+        "description": "IPhone 17 Pro Max, 1TB, Tunai, IBOX, no cicil, beli di Malaysia ditemukan di kantin FDK, siapa yang merasa kehilangan silakan hubungi saya.",
+        "location": "Kantin FDK",
+        "date": "26 Maret 2023",
+        "user": "Gilang Crypto",
+        "userInitials": "G",
+        "category": "barang",
+        "price": "Gratis",
+        "imageUrl": "/images/fotoBarang/ip.png"
+    },
+    {
+        "id": 7,
+        "status": "Hilang",
+        "title": "Patrick Star",
+        "description": "Apakah Kamu menemukan coklat, COKLAT?!, iya coklat. COKLAATT!, COKLAATTT! COKLAATTT!!, COKLAATTT!!!",
+        "location": "Depan Rumah Squidward",
+        "date": "26 Maret 2023",
+        "user": "Mr Crab",
+        "userInitials": "C",
+        "category": "Sea Molusca",
+        "price": "Gratis",
+        "imageUrl": "/images/fotoBarang/patrick.jpeg"
+    }
+]
