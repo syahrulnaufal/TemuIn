@@ -281,6 +281,11 @@ body {
     font-size: 14px;
 }
 
+.btn-dark-outline:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
 /* --- Hero Section Styling --- */
 .hero-logo {
     font-size: 80px;
